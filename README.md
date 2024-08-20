@@ -4,11 +4,11 @@ Encriptador de Texto 🔒
 Características 🚀
 Encriptación personalizada: Cada vocal en el texto se sustituye con una cadena específica:
 
-e se convierte en enter
-i se convierte en imes
-a se convierte en ai
-o se convierte en ober
-u se convierte en ufat
+*e se convierte en enter
+*i se convierte en imes
+*a se convierte en ai
+*o se convierte en ober
+*u se convierte en ufat
 Desencriptación: Revierte fácilmente los mensajes encriptados a su forma original.
 
 Validación de entrada:
