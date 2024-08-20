@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Encriptador de texto</title>
+    <style>
+        #outputText {
+            display: none;
+        }
+
+        #copy-btn {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <nav> <div class="logo"> <a href="https://www.aluracursos.com/" target="_blank"> <img src="Assets/Logo.png" alt="Alura_logo"></a>
+</div>
+
+<ul class="nav_links">
+    <li class="link"><a href="index.html">Inicio</a></li>
+    <li class="link"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank">Sobre mí</a></li>
+</ul>
+
+<button class="contacto-btn"> <a href="https://discordapp.com/users/664889291540922378" target="_blank">Contacto</a></button>
+<button id="menu-btn" onclick="openMenu()"><i class='bx bx-menu'></i></button>
+    </nav>
+    <main class="container">
+    <div class="container_ingreso">
+        <div class="container_titulo">  <h1 class="titulo_encriptar">Encriptador de texto</h1></div>
+<div class="saludo"> <h2>Hola, mundo!</h2><p> Con esta herramienta puedes encripar y desencriptar tus mensajes:</p></div>
+<textarea  id="inputText" class="txt_ingreso" placeholder="Ingresa el texto aquí..." type="text" cols="50" rows="5"></textarea>
+    <div class="aviso"> <p><i class='bx bxs-error-circle' ></i> Sólo letras minúsculas y sin acentos. </p> 
+    </div>
+        <div class="container-btns">
+            <button class="encrypt-btn" id="encrypt-btn" onclick="encriptar()">Encriptar</button>
+            <button class="decrypt-btn" id="decrypt-btn" onclick="desencriptar()">Desencriptar</button>
+            <button class="limpiar-btn" id="clear-btn" onclick="limpiartexto()">Limpiar</button>
+        </div>
+    </div>
+        <div class="container_salida">
+            <textarea id="outputText" class="txt_salida"  type="text" rows="5" cols="50" ></textarea>
+            <div class="container_mensaje_copiar">
+                <img src="./Assets/Muñeco.png" alt="muñeco" id="muneco" class="muneco" >
+                <p id="mensaje_1" class="mensaje_1">Ningún mensaje fue encontrado</p>
+                <p id="mensaje_2" class="mensaje_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        <button class="copy-btn" id="copy-btn" onclick="copiarTexto();" > <i class='bx bx-copy-alt'></i> Copiar</button>
+    </div>
+    </main>
+    <footer>
+        <p>2024 - Desarrollado con ❤️ por RaulesDev <i class='bx bx-copyright'></i></p>   
+    </footer>
+
+    <script src="encriptador.js"></script>
+</body>
+</html>
