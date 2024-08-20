@@ -48,9 +48,9 @@ Sube la rama (git push origin feature/AmazingFeature).
 Abre una solicitud de cambios.
 
 Agradecimientos 🙏!
-Gracias a Alura Latam por los cursos con los que aprendí cómo crear este proyecto. 
-Un saludo a todos aquellos compañero de Alura Latam cuyo código fue usado o referenciado. 
-Un agradecimiento especial a los desarrolladores y a la comunidad de código abierto por hacer posibles proyectos como este.!
+*Gracias a Alura Latam por los cursos con los que aprendí cómo crear este proyecto. 
+*Un saludo a todos aquellos compañeros de Alura Latam cuyo código fue usado o referenciado. 
+*Un agradecimiento especial a los desarrolladores y a la comunidad de código abierto por hacer posibles proyectos como este.!
 
 
 
