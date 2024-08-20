@@ -1,7 +1,7 @@
 # Encriptador de Texto 🔒
 ¡Bienvenido a Encriptador de Texto, una herramienta simple pero poderosa basada en JavaScript que encripta y desencripta mensajes con un algoritmo único y personalizado! Esta herramienta está diseñada para quienes desean jugar con el texto de manera divertida y creativa. Te dejo un screenshote del proyecto:
 
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
 
 ### Características 🚀
 Encriptación personalizada: Cada vocal en el texto se sustituye con una cadena específica:
