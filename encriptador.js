@@ -1,4 +1,11 @@
-//Código del menú
+document.getElementById("rickroll").addEventListener("click", function(event) {
+    event.preventDefault();
+    alert("Acabas de ser rickrolleado 😂");
+    window.open(this.href, '_blank');
+});
+
+
+//Código del menu
 function openMenu(){
     const nav = document.querySelector("nav");
     nav.classList.toggle("open");
