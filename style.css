@@ -22,7 +22,7 @@ html{
 
 body{
 color: #fff;
-background-image: url("../assets/candado.png");
+background-image: url("candado.png");
 background-color: var(--color-fondo);
 font-family: var(--fuente-prompt);
 }
