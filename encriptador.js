@@ -22,17 +22,24 @@ const muneco = document.getElementById('muneco');
 const mensaje1 = document.getElementById('mensaje_1');
 const mensaje2 = document.getElementById('mensaje_2');
 
+/*function botonDeshabilitado (){    
+    
+encryptButton.disabled = inputText.value.trim() === '';
+decryptButton.disabled = inputText.value.trim() === '';
+clearButton.disabled = inputText.trim() === "";
+};
+    
+inputText.addEventListener("input", botonDeshabilitado);
+
+botonDeshabilitado();*/
+
 // Validar entrada de texto
 inputText.addEventListener('input', function() {
     const regex = /^[a-z\s]*$/;
 
     if (!regex.test(inputText.value)) {
         alert('Solo se permiten letras minúsculas y sin acentos.');
-        inputText.value = inputText.value.slice(0, -1);
-    }
-
-    encryptButton.disabled = inputText.value.trim() === '';
-    decryptButton.disabled = inputText.value.trim() === '';
+        inputText.value = inputText.value.slice(0, -1);};
 });
 
 // Encriptar el mensaje
